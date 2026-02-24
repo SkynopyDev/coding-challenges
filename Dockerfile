@@ -51,10 +51,10 @@ RUN cd /home/${USERNAME}/tmp/ && \
 ENV PATH="/home/${USERNAME}/.local/bin:${PATH}"
 
 ## Copy template notebook
-COPY --chown=${USER_UID}:${USER_GID} customer-success/access_computation.ipynb /app/access_computation.ipynb
+COPY --chown=${USER_UID}:${USER_GID} access_computation.ipynb /app/access_computation.ipynb
 
 ## Copy station document
-COPY --chown=${USER_UID}:${USER_GID} customer-success/stations.yaml /app/stations.yaml
+COPY --chown=${USER_UID}:${USER_GID} stations.yaml /app/stations.yaml
 
 ## Change default entrypoint folder to /app
 WORKDIR /app
