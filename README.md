@@ -1,12 +1,12 @@
-# Open Space Toolkit - Mission Manager
+# Customer-success Coding Challenge
 
-Analyze satellite access patterns for ground stations and zones of interest using the [Open Space Toolkit (OSTk)](https://github.com/open-space-collective/open-space-toolkit).
+Compute satellite access for ground stations and zones of interest using the [Open Space Toolkit (OSTk)](https://github.com/open-space-collective/open-space-toolkit).
 
 ## Quick Start with Binder (No Installation Required)
 
 Launch this repository instantly in your browser:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SkynopyDev/coding-challenges.git/HEAD?urlpath=%2Fdoc%2Ftree%2Faccess_computation.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SkynopyDev/customer-success-challenge.git/HEAD?urlpath=%2Fdoc%2Ftree%2Faccess_computation.ipynb)
 
 Click the badge above to open `access_computation.ipynb` in JupyterLab. All dependencies are pre-installed and ready to use.
 
