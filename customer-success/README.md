@@ -6,13 +6,14 @@ Analyze satellite access patterns for ground stations and zones of interest usin
 
 Launch this repository instantly in your browser:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://2i2c.mybinder.org/v2/gh/ValentineBrgs/coding_challenge_customer_sucess/main?labpath=access_computation.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SkynopyDev/coding-challenges.git/HEAD?urlpath=%2Fdoc%2Ftree%2Faccess_computation.ipynb)
 
 Click the badge above to open `access_computation.ipynb` in JupyterLab. All dependencies are pre-installed and ready to use.
 
 ## What's Inside
 
 The `access_computation.ipynb` notebook demonstrates:
+
 - **Ground Station Access Analysis**: Computing satellite visibility windows with 5° minimum elevation
 - **Zone of Interest Monitoring**: Special analysis for France with 30° minimum elevation
 
@@ -35,6 +36,7 @@ make run-jupyter
 Access JupyterLab at `http://localhost:8888/lab`
 
 **Common Commands:**
+
 - `make run-jupyter` - Build and start JupyterLab
 - `make stop` - Stop the container
 - `make rebuild` - Clean rebuild
@@ -80,16 +82,18 @@ stations:
 ### Visibility Criteria
 
 Adjust elevation requirements in the notebook:
+
 - Ground stations: 5° minimum elevation
 - Zone of interest
-
 
 ## Troubleshooting
 
 **Port 8888 in use?** Change the port:
+
 ```bash
 docker run -it --rm -p 8889:8888 -v $(pwd):/app ostk-mission-manager
 ```
+
 Access at `http://localhost:8889/lab`
 
 ## Resources
